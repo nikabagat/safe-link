@@ -12,6 +12,15 @@ body {
     text-align: center;
 }
 
+.btn-container {
+    display: flex;          /* აქცევს კონტეინერს ფლექსიბილურად */
+    flex-direction: row;    /* განალაგებს ელემენტებს ჰორიზონტალურად */
+    justify-content: center;/* აცენტრებს ღილაკებს */
+    align-items: center;    /* ასწორებს მათ ვერტიკალურად ცენტრში */
+    gap: 20px;              /* ქმნის დაშორებას ღილაკებს შორის (margin-ის ნაცვლად) */
+    flex-wrap: nowrap;      /* კრძალავს ელემენტების ქვედა ხაზზე გადასვლას */
+}
+
 img {
     width: 275px;
     border-radius: 10px;
